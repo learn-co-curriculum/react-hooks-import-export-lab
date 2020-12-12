@@ -7,9 +7,16 @@
 ## Instructions
 
 In this lab, we'll work on organizing our code into separate files with the
-import/export syntax.
+import/export syntax. We'll continue working on the portfolio example from the
+previous lab, this time working on separating out our code into different
+modules using the `import`/`export` syntax.
 
-Begin with `npm install`. Then, run `npm start` to run your code in the browser. Follow the error messages to fix the broken imports!
+Begin with `npm install`. Then, run `npm start` to run your code in the browser.
+Follow the error messages to fix the broken imports!
+
+Your goal is to fix the errors, and get our app to match this example:
+
+![demo](images/demo.png)
 
 When you're done, run `learn test` or `npm test` to check if all tests pass.
 
