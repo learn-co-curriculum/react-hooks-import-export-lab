@@ -5,7 +5,7 @@ function Home() {
   return (
     <div id="home">
       <h1>
-        {name} is a Web Developer from {city}
+        {username} is a Web Developer from {city}
       </h1>
     </div>
   );
