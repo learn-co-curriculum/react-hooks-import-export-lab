@@ -16,7 +16,7 @@ Follow the error messages to fix the broken imports!
 
 Your goal is to fix the errors, and get our app to match this example:
 
-![demo](images/demo.png)
+![demo](https://github.com/learn-co-curriculum/react-hooks-import-export-lab/raw/master/images/demo.png)
 
 When you're done, run `learn test` or `npm test` to check if all tests pass.
 
@@ -25,19 +25,20 @@ When you're done, run `learn test` or `npm test` to check if all tests pass.
 ### Components
 
 There are four components in this application, all located in the `components`
-folder. Use the default export syntax to export the `<NavBar>`, `<NavBar>`, and
-`<NavBar>` components, and import them all in the `<App>` component.
+folder. Use the **default export** syntax to export the `<NavBar>`, `<NavBar>`,
+and `<NavBar>` components, and import them all in the `<App>` component.
 
 ### Data
 
-In the `data/data.js` file, there are three variables that have information
+In the `src/data/user.js` file, there are three variables that have information
 about the owner of the portfolio site. Export all three variables using the
-named export syntax.
+**named export** syntax.
 
 After you've exported them, import them in the following files:
 
-- Import the `name` and `city` variables in the `components/Home.js` file
-- Import the `image` variable in the `components/About.js` file
+- Import the `username` and `city` variables in the `src/components/Home.js`
+  file
+- Import the `image` variable in the `src/components/About.js` file
 
 ## Resources
 
