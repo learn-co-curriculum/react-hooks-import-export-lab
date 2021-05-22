@@ -1,8 +1,9 @@
 # Organizing Code with Import/Export Lab
 
-## Objectives
+## Learning Goals
 
-- Practice using the default and named import/export syntax
+- Use the default and named import/export syntax to access variables across
+  multiple files
 
 ## Instructions
 
@@ -16,7 +17,7 @@ Follow the error messages to fix the broken imports!
 
 Your goal is to fix the errors, and get our app to match this example:
 
-![demo](https://github.com/learn-co-curriculum/react-hooks-import-export-lab/raw/master/images/demo.png)
+![demo](https://curriculum-content.s3.amazonaws.com/phase-2/phase-2-hooks-import-export-lab/demo.png)
 
 When you're done, run `learn test` or `npm test` to check if all tests pass.
 
@@ -43,12 +44,13 @@ After you've exported them, import them in the following files:
 When importing, make sure to use the _relative path_ from the file you're
 currently in, to the file you're trying to import from. For example, if you are
 in the `src/components/About.js` file and want to import from the
-`src/data/user.js` file, the relative path is `../data/user` (go up one directory, into the `data` folder, and into the `user` file).
+`src/data/user.js` file, the relative path is `../data/user` (go up one
+directory, into the `data` folder, and into the `user` file).
 
 ## Resources
 
-[MDN Import Documentation][import]  
-[MDN Export Documentation][export]
+- [MDN Import Documentation][import]
+- [MDN Export Documentation][export]
 
 [import]: https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/import
 [export]: https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export
