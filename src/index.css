@@ -17,6 +17,7 @@ h5,
 h6 {
   font-family: "Playfair Display", serif;
   margin-bottom: 1em;
+  color: firebrick;
 }
 
 nav {
