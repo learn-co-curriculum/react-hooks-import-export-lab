@@ -19,15 +19,15 @@ Your goal is to fix the errors, and get our app to match this example:
 
 ![demo](https://curriculum-content.s3.amazonaws.com/phase-2/phase-2-hooks-import-export-lab/demo.png)
 
-When you're done, run `learn test` or `npm test` to check if all tests pass.
+When you're done, run `npm test` to check if all tests pass.
 
 ## Deliverables
 
 ### Components
 
 There are four components in this application, all located in the `components`
-folder. Use the **default export** syntax to export the `<About>`, `<Home>`,
-and `<NavBar>` components, and import them all in the `<App>` component.
+folder. Use the **default export** syntax to export the `<About>`, `<Home>`, and
+`<NavBar>` components, and import them all in the `<App>` component.
 
 ### Data
 
@@ -52,5 +52,7 @@ directory, into the `data` folder, and into the `user` file).
 - [MDN Import Documentation][import]
 - [MDN Export Documentation][export]
 
-[import]: https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/import
-[export]: https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export
+[import]:
+  https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/import
+[export]:
+  https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export
