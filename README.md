@@ -8,7 +8,7 @@
 ## Instructions
 
 In this lab, we'll work on organizing our code into separate files with the
-import/export syntax. We'll continue working on the portfolio example from the
+`import`/`export` syntax. We'll continue working on the portfolio example from the
 previous lab, this time working on separating out our code into different
 modules using the `import`/`export` syntax.
 
