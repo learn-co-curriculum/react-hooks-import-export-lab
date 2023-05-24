@@ -1,6 +1,6 @@
 import React from "react";
 
-function Home() {
+const Home = () => {
   return (
     <div id="home">
       <h1>
